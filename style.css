@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    height: 100vh;
+    /* padding: 2rem; */
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+main{
+    padding: 20px;
+    margin: auto 0;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+header{
+    background-color: #000;
+    width: 100%; /* Para cobrir toda a largura da tela */
+    color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5%;
+    gap: 10px;
+    
+}
+
+.card-interativo{
+    padding-bottom: 20px;
+    font-size: 24px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* background-color: #E0C3FC; */
+    background: linear-gradient(90deg, #8EC5FC, #E0C3FC);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #000;
+    width: 50%;
+    height: 150px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    height: 25px;
+    
+    font-size: 24px;
+}
+
+.btns button {
+    flex-grow: 1; /* Faz os botões ocuparem todo o espaço disponível */
+    width: 100px;
+    cursor: pointer;
+}
+
+.begin{
+    background-color: rgb(185, 255, 185);
+    font-size: 18px;
+    /* FONT STYLE */
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    border : none;
+    box-shadow: 0 4px 8px #000;
+    border-radius: 200px;
+}
+
+.stop{
+    background-color: rgb(255, 123, 123);
+    font-size: 18px;
+    /* FONT STYLE */
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    border : none;
+    box-shadow: 0 4px 8px #000;
+    border-radius: 200px;
+}
+
+.reboot{
+    background-color: rgb(130, 188, 255);
+    font-size: 18px;
+    /* FONT STYLE */
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    border : none;
+    box-shadow: 0 4px 8px #000;
+    border-radius: 200px;
+}
+
+.options{
+    display: flex;
+    gap: 30px;
+}
+.pomodoro{
+    cursor: pointer;
+    background: none;
+    font-size: 18px;
+    /* FONT STYLE */
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    border : none;
+    border-radius: 200px;
+}
+
+.shortbreak{
+    cursor: pointer;
+    background: none;
+    font-size: 18px;
+    /* FONT STYLE */
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    border : none;
+    border-radius: 200px;
+}
+
+.longbreak{
+    cursor: pointer;
+    background: none;
+    font-size: 18px;
+    /* FONT STYLE */
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    border : none;
+    border-radius: 200px;
+}
+
+.options button:hover{
+    color: #ddd;
+}
+
+.btns button:hover{
+    color: #ddd;
+}

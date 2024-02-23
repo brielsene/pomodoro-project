@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomofocus</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        
+        <h3>Horário:   
+        </h3>
+        <p id="hora"></p>
+    </header>
+    <main>
+        <h1>Bem vindo ao seu pomofocus</h1>
+        <p>Vamos começar o foco?</p>
+        <div class="card-interativo">
+            <div class="options">
+                <button class="pomodoro" onclick="pomodoro()">Pomodoro</button>
+                <button class="shortbreak" onclick="shortbreak()">Short Break</button>
+                <button class="longbreak" onclick="longbreak()">Long Break</button>
+            </div>
+            <p id="tempo">00:00</p>
+            
+            <div class="btns">
+                <button class="begin" onclick="begin()">Começar</button>
+                <button class="stop" onclick="stopCont()">Pausar</button>
+                <button class="reboot" onclick="reboot()">Reiniciar</button>
+            </div>
+            
+            
+            
+        </div>
+    </main>
+    <footer></footer>
+    <script src="./index.js"></script>
+    
+</body>
+</html>
